@@ -1,0 +1,8 @@
+[sofia@ip-172-31-51-85 ~]$ hdfs dfs -cat /user/sofia/spark/output/part-00000
+(a,1)
+(b,2)
+(c,3)
+(x,5)
+(y,2)
+(z,3)
+
