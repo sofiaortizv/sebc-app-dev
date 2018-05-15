@@ -1,0 +1,69 @@
+drwxrwxr-x   - sofia hadoop          0 2018-05-14 22:26 /user/sofia/input/201805142223
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:23 /user/sofia/input/201805142223/apigee.1526336595375.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:23 /user/sofia/input/201805142223/apigee.1526336595376.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:23 /user/sofia/input/201805142223/apigee.1526336595377.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:23 /user/sofia/input/201805142223/apigee.1526336595378.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:23 /user/sofia/input/201805142223/apigee.1526336595379.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:26 /user/sofia/input/201805142223/apigee.1526336595380.txt
+drwxrwxr-x   - sofia hadoop          0 2018-05-14 22:26 /user/sofia/input/201805142224
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:24 /user/sofia/input/201805142224/apigee.1526336642431.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:24 /user/sofia/input/201805142224/apigee.1526336642432.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:24 /user/sofia/input/201805142224/apigee.1526336642433.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:24 /user/sofia/input/201805142224/apigee.1526336642434.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:24 /user/sofia/input/201805142224/apigee.1526336642435.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:24 /user/sofia/input/201805142224/apigee.1526336642436.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:24 /user/sofia/input/201805142224/apigee.1526336642437.txt
+-rw-r--r--   3 sofia hadoop        760 2018-05-14 22:26 /user/sofia/input/201805142224/apigee.1526336642438.txt
+drwxrwxr-x   - sofia hadoop          0 2018-05-14 22:26 /user/sofia/input/201805142225
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:25 /user/sofia/input/201805142225/apigee.1526336702438.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:25 /user/sofia/input/201805142225/apigee.1526336702439.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:25 /user/sofia/input/201805142225/apigee.1526336702440.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:25 /user/sofia/input/201805142225/apigee.1526336702441.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:25 /user/sofia/input/201805142225/apigee.1526336702442.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:25 /user/sofia/input/201805142225/apigee.1526336702443.txt
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:25 /user/sofia/input/201805142225/apigee.1526336702444.txt
+-rw-r--r--   3 sofia hadoop        570 2018-05-14 22:26 /user/sofia/input/201805142225/apigee.1526336702445.txt
+drwxrwxr-x   - sofia hadoop          0 2018-05-14 22:26 /user/sofia/input/201805142226
+-rw-r--r--   3 sofia hadoop       1520 2018-05-14 22:26 /user/sofia/input/201805142226/apigee.1526336762444.txt
+-rw-r--r--   3 sofia hadoop        570 2018-05-14 22:26 /user/sofia/input/201805142226/apigee.1526336762445.txt
+
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
+hello world goodbye world hello again
+this is a test it does not work hello
