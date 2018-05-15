@@ -26,11 +26,11 @@ object SparkBatchExample {
     fs.delete(new Path(pathOutput),true)
     
     /* READ DATA FROM HDFS, SORT BY KEY, SAVE TO HDFS */
-    val words = sc.textFile(pathInput).repartition(1).map {
+    val words = sc.textFile(pathInput).map {
       line =>
         val token = line.split(",")
         (token(0), token(1))
-    }.sortByKey()
+    }.repartition(1).sortByKey()
 
     words.saveAsTextFile(pathOutput)
     
