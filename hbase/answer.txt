@@ -1,0 +1,46 @@
+
+Ejercicio: 
+
++ Store (Put) and Query (Get) how many visitors a particular domain had during a given timeframe
++ Store (Put) and Query (Get) which domains a particular user visited and from which IP address during a given timeframe
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% KEY 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+1) modulo => consecutivo%num_servidores
+2) dominio = solo el nombre, sin www, sin el fqnd (.com,.net,.gov, etc)
+3) usuario => extraer el nombre de usuario de la cuenta de correo, esto es, sin "@servidor.com" y sin caracteres no alfanumericos.
+4) hash(ip + correo) 
+5) rnd
+
+Características de la llave
+a) La combinación garantiza que sea unica. 
+     + Se considera cómo peor escenario que un usuario haga una petición al mismo dominio, desde la misma ip en el mismo instante de tiempo, por 
+       lo que se agrego (6) número aleatorio para garantizar no existan repetidos.
+b) El campo (1) tiene por objetivo distribuir el registro sobre las n regiones. Sabiendo que se tiene una región de una tabla por cada servidor. 
+
+Ejemplos de llaves:
+
+a) 1-salsas-sofia-E43996D3B435A47029BCAE8EC1D9577A-1
+   1-salsas-landy-E43996D3B435A47029BCAE8EC1D9577B-1
+   1-gourment-arshaq-E43996D3B435A47029BCAE8EC1D9577D-1
+b) 2-gourment-sofia-E43996D3B435A47029BCAE8EC1D9577A-1
+   2-salsas-dobeslao-E43996D3B435A47029BCAE8EC1D9577C-1
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% COLUMN FAMILY 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Column family: 
+- dominio
+- email
+- ip
+- impala 
+
+
+
+
+
+
