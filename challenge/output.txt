@@ -1,9 +1,14 @@
-//Sintaxis para crear tabla
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% HBASE - Creación de tabla y diseño 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+* Sintaxis para crear tabla
 hbase(main):001:0> create 'wordcount_sofia 'wordcount_data' , { NUMREGIONS => 10 , SPLITALGO => 'UniformSplit'}
 
 
-//La llave fue 
+* La llave fue 
 
 >>> llave: palabra + count + aleatorio
     Descripción: Para distribuir el por el vocabulario, el numero aleatorio (entre 1 y 10) y el count para garantizar que la llave sea unica 
@@ -13,6 +18,42 @@ hbase(main):001:0> create 'wordcount_sofia 'wordcount_data' , { NUMREGIONS => 10
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% FLUME - SPARK STREAMING - HBASE 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+-------------------------------------------
+Time: 1526671880000 ms
+-------------------------------------------
+
+-------------------------------------------
+Time: 1526671885000 ms
+-------------------------------------------
+
+-------------------------------------------
+Time: 1526671890000 ms
+-------------------------------------------
+(again,8)
+(goodbye,8)
+(work,7)
+(does,7)
+(hello,23)
+(test,7)
+(world,16)
+(not,7)
+(it,7)
+
+-------------------------------------------
+Time: 1526671895000 ms
+-------------------------------------------
+(again,15)
+(goodbye,15)
+(work,15)
+(does,15)
+(hello,45)
+(test,15)
+(world,30)
+(not,15)
+(it,15)
 
 
