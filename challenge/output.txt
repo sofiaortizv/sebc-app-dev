@@ -5,9 +5,13 @@ hbase(main):001:0> create 'wordcount_sofia 'wordcount_data' , { NUMREGIONS => 10
 
 //La llave fue 
 
-llave: palabra + count + aleatorio
+>>> llave: palabra + count + aleatorio
+    Descripción: Para distribuir el por el vocabulario, el numero aleatorio (entre 1 y 10) y el count para garantizar que la llave sea unica 
 
-Para distribuir el por el vocabulario, el numero aleatorio y el count para garantizar que la llave sea unica 
+>>> Se agregaron dos columnas 
+   * Llave y valor
+
+
 
 
 
