@@ -1,0 +1,14 @@
+//Sintaxis para crear tabla
+
+hbase(main):001:0> create 'wordcount_sofia 'wordcount_data' , { NUMREGIONS => 10 , SPLITALGO => 'UniformSplit'}
+
+
+//La llave fue 
+
+llave: palabra + count + aleatorio
+
+Para distribuir el por el vocabulario, el numero aleatorio y el count para garantizar que la llave sea unica 
+
+
+
+
