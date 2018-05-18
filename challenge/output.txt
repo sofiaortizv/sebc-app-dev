@@ -57,3 +57,58 @@ Time: 1526671895000 ms
 (it,15)
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Salida hbase
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+hbase(main):001:0> count 'wordcount_sofia'
+780 row(s) in 0.3490 seconds
+
+=> 780
+hbase(main):002:0> 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+world-40-5                                       column=wordcount:count, timestamp=1526670305066, value=\x00\x00\x00(                                                                          
+ world-40-5                                       column=wordcount:word, timestamp=1526670305066, value=world                                                                                   
+ world-40-6                                       column=wordcount:count, timestamp=1526668740221, value=\x00\x00\x00(                                                                          
+ world-40-6                                       column=wordcount:word, timestamp=1526668740221, value=world                                                                                   
+ world-40-9                                       column=wordcount:count, timestamp=1526668385077, value=\x00\x00\x00(                                                                          
+ world-40-9                                       column=wordcount:word, timestamp=1526668385077, value=world                                                                                   
+ world-42-0                                       column=wordcount:count, timestamp=1526671335065, value=\x00\x00\x00*                                                                          
+ world-42-0                                       column=wordcount:word, timestamp=1526671335065, value=world                                                                                   
+ world-42-3                                       column=wordcount:count, timestamp=1526670920065, value=\x00\x00\x00*                                                                          
+ world-42-3                                       column=wordcount:word, timestamp=1526670920065, value=world                                                                                   
+ world-42-7                                       column=wordcount:count, timestamp=1526668290085, value=\x00\x00\x00*                                                                          
+ world-42-7                                       column=wordcount:word, timestamp=1526668290085, value=world                                                                                   
+ world-44-1                                       column=wordcount:count, timestamp=1526670950056, value=\x00\x00\x00,                                                                          
+ world-44-1                                       column=wordcount:word, timestamp=1526670950056, value=world                                                                                   
+ world-44-2                                       column=wordcount:count, timestamp=1526668440085, value=\x00\x00\x00,                                                                          
+ world-44-2                                       column=wordcount:word, timestamp=1526668440085, value=world                                                                                   
+ world-44-5                                       column=wordcount:count, timestamp=1526671035066, value=\x00\x00\x00,                                                                          
+ world-44-5                                       column=wordcount:word, timestamp=1526671035066, value=world                                                                                   
+ world-44-7                                       column=wordcount:count, timestamp=1526668970150, value=\x00\x00\x00,                                                                          
+ world-44-7                                       column=wordcount:word, timestamp=1526668970150, value=world                                                                                   
+ world-46-0                                       column=wordcount:count, timestamp=1526668910063, value=\x00\x00\x00.                                                                          
+ world-46-0                                       column=wordcount:word, timestamp=1526668910063, value=world                                                                                   
+ world-46-1                                       column=wordcount:count, timestamp=1526668680087, value=\x00\x00\x00.                                                                          
+ world-46-1                                       column=wordcount:word, timestamp=1526668680087, value=world                                                                                   
+ world-46-2                                       column=wordcount:count, timestamp=1526670645121, value=\x00\x00\x00.                                                                          
+ world-46-2                                       column=wordcount:word, timestamp=1526670645121, value=world                                                                                   
+ world-46-8                                       column=wordcount:count, timestamp=1526668540091, value=\x00\x00\x00.                                                                          
+ world-46-8                                       column=wordcount:word, timestamp=1526668540091, value=world                                                                                   
+ world-46-9                                       column=wordcount:count, timestamp=1526670685076, value=\x00\x00\x00.                                                                          
+ world-46-9                                       column=wordcount:word, timestamp=1526670685076, value=world                                                                                   
+ world-5200-6                                     column=wordcount:count, timestamp=1526668037749, value=\x00\x00\x14P                                                                          
+ world-5200-6                                     column=wordcount:word, timestamp=1526668037749, value=world                                                                                   
+ world-56-9                                       column=wordcount:count, timestamp=1526669710058, value=\x00\x00\x008                                                                          
+ world-56-9                                       column=wordcount:word, timestamp=1526669710058, value=world                                                                                   
+ world-62-6                                       column=wordcount:count, timestamp=1526671350124, value=\x00\x00\x00>                                                                          
+ world-62-6                                       column=wordcount:word, timestamp=1526671350124, value=world                                                                                   
+ world-80-9                                       column=wordcount:count, timestamp=1526671025058, value=\x00\x00\x00P                                                                          
+ world-80-9                                       column=wordcount:word, timestamp=1526671025058, value=world                                                                                   
+780 row(s) in 1.7920 seconds
+
+
